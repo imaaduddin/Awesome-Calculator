@@ -63,6 +63,21 @@ body {
     padding: 10px;
 }
 
+button {
+  min-height: 50px;
+  font-size: 20px;
+  font-weight: 100;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(199, 199, 199);
+}
+
+.operator {
+  background: gray;
+  color: white;
+}
+
 .equal-sign {
   grid-column: -2;
   grid-row: 2 / span 4;
